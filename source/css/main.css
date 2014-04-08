@@ -10,3 +10,11 @@ nav#main-navbar {
     margin-bottom: 60px;
 }
 
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+    color: #777;
+    font-size: 14px;
+}
