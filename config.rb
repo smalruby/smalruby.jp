@@ -69,4 +69,5 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 
   ignore 'Thumbs.db'
+  ignore '**/Thumbs.db'
 end
