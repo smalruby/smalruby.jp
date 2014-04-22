@@ -1,0 +1,15 @@
+%nav#main-navbar.navbar{class: "navbar-default navbar-static-top", role: "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle{type: "button", :"data-toggle" => "collapse", :"data-target" => "#main-navbar-collapse"}
+        %span.sr-only<
+          Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "/"}<
+        %img.img-responsive{src: "img/logo_h60px.png", alt: "Smalruby", style: "margin-top: -20px"}
+
+    #main-navbar-collapse.collapse{class: "navbar-collapse"}
+      %p.navbar-text{class: "navbar-right"}<
+        まもなくはじまります
