@@ -68,6 +68,8 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
+  ignore 'README.md'
+  ignore 'LICENSE.md'
   ignore 'Thumbs.db'
   ignore '**/Thumbs.db'
 end
