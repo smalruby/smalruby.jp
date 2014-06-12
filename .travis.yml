@@ -1,6 +1,10 @@
 ---
 language: ruby
+
 script: bundle exec middleman build
+
+rvm:
+  - 2.0.0
 
 env:
   global:
