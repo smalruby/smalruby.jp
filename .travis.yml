@@ -1,7 +1,7 @@
 ---
 language: ruby
 
-script: bundle exec middleman build
+script: bundle exec middleman build --verbose
 
 rvm:
   - 2.0.0
