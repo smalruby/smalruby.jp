@@ -6,8 +6,8 @@ body {
     font-size: 20px;
 }
 
-nav#main-navbar {
-    margin-bottom: 60px;
+nav#blog-navbar span.logo {
+    font-size: 1.5em;
 }
 
 footer {
