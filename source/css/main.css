@@ -50,3 +50,7 @@ section.blog-menu h4 {
 section.blog hr {
     margin-bottom: 2em;
 }
+
+img {
+    max-width: 100%;
+}
