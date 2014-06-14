@@ -1,0 +1,63 @@
+LEGAL NOTICE INFORMATION
+------------------------
+
+All the files in this distribution are covered under either the
+smalruby.jp's license (see the file LICENSE) except some files
+mentioned below.
+
+source/css/font/FontAwesome.otf, source/css/font/fontawesome-webfont.eot,
+source/css/font/fontawesome-webfont.svg,
+source/css/font/fontawesome-webfont.ttf,
+source/css/font/fontawesome-webfont.woff:
+
+  These's license is SIL Open Font License (OFL) 1.1:
+  http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL .
+
++ source
+  + css
+    style-mobile.css
+    style-narrow.css
+    style-narrower.css
+    style-normal.css
+    style-wide.css
+    style.css
+    + ie
+      v8.css
+    + images
+      arrow.svg
+      dark-arrow.svg
+      loader.gif
+      overlay.png
+  + js
+    init.js
+  index.html
+
+  Big Picture 1.0 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+source/js/jquery.min.js:
+
+  jQuery (jquery.com)
+
+source/css/ie/html5shiv.js:
+
+  html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+
+
+source/css/ie/PIE.htc:
+
+  CSS3 PIE (http://css3pie.com/)
+
+source/css/ie/backgroundsize.min.htc:
+
+  background-size polyfill (https://github.com/louisremi/background-size-polyfill)
+
+source/js/jquery.poptrox.min.js, source/css/images/poptrox-closer.svg,
+source/css/images/poptrox-nav.svg:
+
+  jquery.poptrox, other misc plugins (n33.co)
+
+source/js/skel.min.js, source/css/skel-noscript.css:
+
+  skelJS (skeljs.org)

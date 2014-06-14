@@ -84,7 +84,7 @@ set :css_dir, 'css'
 
 set :js_dir, 'js'
 
-set :images_dir, 'img'
+set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
@@ -103,8 +103,6 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
-  ignore 'README.md'
-  ignore 'LICENSE.md'
   ignore 'Thumbs.db'
   ignore '**/Thumbs.db'
   ignore '**/original'
