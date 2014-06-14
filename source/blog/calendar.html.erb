@@ -1,7 +1,7 @@
 ---
 pageable: true
 ---
-<h1>古い記事（きじ）
+<h2>古い<%= ruby('記事', 'きじ') %>
   <% case page_type
      when 'day' %>
     <%= Date.new(year, month, day).strftime('%Y年%m月%d日') %>
@@ -10,7 +10,7 @@ pageable: true
   <% when 'year' %>
     <%= year %>年
   <% end %>
-</h1>
+</h2>
 
 <% if paginate && num_pages > 1 %>
   <p>ページ <%= page_number %> ／ <%= num_pages %></p>

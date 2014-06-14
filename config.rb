@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'tzinfo'
 
 Time.zone = "Tokyo"
@@ -71,14 +72,32 @@ activate :blog do |blog|
 end
 
 # Reload the browser automatically whenever files change
-# activate :livereload, host: '127.0.0.1'
+# activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def page_title
+    if current_article
+      return "#{current_article.title} | Rubyプログラミング少年団"
+    end
+    if current_page.data.title
+      return "#{current_page.data.title} | Rubyプログラミング少年団"
+    end
+    "Rubyプログラミング少年団"
+  end
+
+  def page_description
+    current_page.data.description || "Rubyプログラミング少年団の公式Webサイトです。"
+  end
+
+  def ruby(string, furigana)
+    "<ruby>#{h string}<rp>（</rp><rt>#{h furigana}</rt><rp>）</rp></ruby>"
+  end
+
+  def num_trialers
+    15
+  end
+end
 
 set :css_dir, 'css'
 

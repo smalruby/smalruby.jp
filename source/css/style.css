@@ -480,6 +480,8 @@
 				}
 				
 				.main.style1 .content {
+                    text-shadow: 0 15px 10px rgba(0,0,0,0.5);
+
 					opacity: 1.0;
 
 					-moz-transition: all 1s ease;

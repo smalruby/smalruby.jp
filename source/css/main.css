@@ -1,0 +1,52 @@
+.main.style1 h2 {
+    font-size: 3.25em;
+}
+
+table.default {
+    border: 1px solid black;
+    text-align: left;
+}
+
+table.default th {
+    width: 9em;
+}
+
+p small {
+    font-size: 0.7em;
+    line-height: 0.7em;
+    color: gray;
+}
+
+.left {
+    text-align: left;
+}
+
+section.blog {
+}
+
+section.blog h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+section.blog h2 span {
+    color: gray;
+    font-size: 0.8em;
+}
+
+section.blog ul {
+    list-style: disc;
+    padding-left: 1em;
+}
+
+section.blog ul li {
+    padding-left: 0.5em;
+}
+
+section.blog-menu h4 {
+    margin-bottom: 0.5em;
+}
+
+section.blog hr {
+    margin-bottom: 2em;
+}

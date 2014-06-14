@@ -2,7 +2,7 @@
 pageable: true
 per_page: 12
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
+<h2>「<%= tagname %>」のタグがついている<%= ruby('記事', 'きじ') %></h2>
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -14,7 +14,7 @@ per_page: 12
 
 <ul>
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%Y年%m月%d日') %></span></li>
   <% end %>
 </ul>
 
