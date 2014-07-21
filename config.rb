@@ -95,7 +95,7 @@ helpers do
   end
 
   def num_trialers
-    24
+    28
   end
 end
 
