@@ -94,6 +94,8 @@ helpers do
     "<ruby>#{h string}<rp>（</rp><rt>#{h furigana}</rt><rp>）</rp></ruby>"
   end
 
+  alias :r :ruby
+
   def num_trialers
     86
   end
