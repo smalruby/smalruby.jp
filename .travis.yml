@@ -1,6 +1,10 @@
 ---
 language: ruby
 
+branches:
+  only:
+    - master
+
 script: bundle exec middleman build --verbose
 
 rvm:
