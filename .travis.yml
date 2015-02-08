@@ -22,6 +22,7 @@ before_script:
   - git clone --quiet https://github.com/smalruby/smalruby.github.com.git build
 
 after_success:
+  - [ "${TRAVIS_PULL_REQUEST}" = "true" ] && exit 0
   - cd build
   - git add -A
   - git commit -m 'Updated.'
