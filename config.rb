@@ -97,7 +97,7 @@ helpers do
   alias :r :ruby
 
   def num_trialers
-    156
+    156 + 8
   end
 end
 
