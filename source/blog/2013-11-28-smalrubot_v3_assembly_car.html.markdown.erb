@@ -5,7 +5,7 @@ tags: howto, smalrubot_v3
 og_image: /files/blog/smalrubot_v3_assemly_car/IMG_6759.jpg
 ---
 
-これまでの作業で、
+これまでの作業（[その１](/blog/2013/11/30/smalrubot_v3_summary.html)、[その２](/blog/2013/11/29/smalrubot_v3_assembly_arduino.html)）で、
 
 (1) 通信モジュール（電源）とLEDの取り付け
 
@@ -29,47 +29,95 @@ READMORE
 
 ## (3) 2つ目のLEDの取り付け
 
+### 緑色のLEDの取り付け
+
+緑色に光る2つ目のLEDを取り付けます。1つ目の赤色のLEDと同じように動作を確認しながら取り付けます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6552.jpg)
+
+ニッパーと切り離したブレッドボードを使って、LEDのリード線の長い方をブレッドボードの高さと同じにして、短い方をブレッドボードの高さよりも2mm程度短くします。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6551.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6553.jpg)
 
+カットしたLEDの足が長い方をブレッドボード「aの2」へ、短い方をブレッドボードの「bの3」に挿します。赤色のLEDとは左右対称になっています。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6554.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6555.jpg)
 
+次に緑色のジャンパーケーブルを1本使います。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6556.jpg)
+
+一方をブレッドボードの「＋」に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6557.jpg)
 
+もう一方をブレッドボードの「eの2」に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6558.jpg)
+
+ここでUSBケーブルでコンピュータにつなぐと緑色のLEDが光るはずです。光ることを確認したらコンピュータからUSBケーブルを抜いて、電源を切っておこう。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6559.jpg)
 
+光らない場合は緑色のLEDを挿す方向を間違っている可能性があります。緑色のLEDの足が長い方をブレッドボード「aの2」へ、短い方をブレッドボードの「bの3」に挿していることを確認してください。
+
+### 抵抗の取り付け
+
+ここでも赤色のLEDのときと同じように1kΩの抵抗を取り付けます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6560.jpg)
 
+ニッパーと切り離したブレッドボードを使って、写真のようにリード線をカットして曲げます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6561.jpg)
+
+それをブレッドボードの「cの2」と「cの5」に挿します。LEDとは違って、抵抗の向きはどちらでもかまいません。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6563.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6564.jpg)
 
+### 動作確認
+
+動作を確認するために、緑色のジャンパコードの一方（eの2）をブレッドボードから抜きます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6565.jpg)
+
+そして、「bの5」に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6566.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6567.jpg)
 
+ここでUSBケーブルでコンピュータにつなぐと緑色のLEDが光るはずです。先程よりもずいぶん光が弱くなっているはずです。
+
+光ることを確認したらコンピュータからUSBケーブルを抜いて、電源を切っておこう。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6568.jpg)
 
-![](/files/blog/smalrubot_v3_assemly_car/IMG_6569.jpg)
+### スモウルビーからコントロールできるように配線
+
+動作を確認できたので、スモウルビーからコントロールできるように配線します。
+
+緑色のジャンパコードの一方（＋）をブレッドボードから抜きます。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6570.jpg)
 
+そして、「cの16」に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6571.jpg)
 
+これで緑色のLEDに関する配線は完了です。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6572.jpg)
+
+### 動作確認
+
+スモウルビーを操作して、下のプログラムを作って実行してみましょう。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6572__pg.jpg)
 
