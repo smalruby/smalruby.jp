@@ -525,23 +525,35 @@ USBケーブルをはさむためのケーブルフックを両面テープで�
 
 スモウルボットの目となって、黒い線と白い線を見分けるためのセンサーである「フォトリフレクター」を取り付けます。
 
-フォトリフレクターのリード線を短くカットして、両面テープでボディの前面に貼り付けて、ジャンパーコードを使って配線するだけです。
+2つのフォトリフレクターのリード線を短くカットして、両面テープでボディの前面に貼り付けて、ジャンパーコードを使って配線するだけです。
 
-しかしながら、ジャンパーコードが抜けやすいのと、ジャンパコードが長いためにそのままだとスモウルボットの高さが高くなってしまうため、ジャンパコードを配線するときに他のものに巻きつけるようにしています。
+注意点としては、ジャンパーコードが抜けやすいのと、ジャンパコードが長いためにそのままだとスモウルボットの高さが高くなってしまうため、ジャンパコードを巻きつけるように配線しています。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6702.jpg)
 
-![](/files/blog/smalrubot_v3_assemly_car/IMG_6708.jpg)
+### センサーのリード線のカット
+
+まずはリード線をカットします。下の写真のように抵抗から伸びている１本（写真では右のもの）は抵抗の上からブレッドボードの高さ分、そのほかの２本（写真では右のもの）は金属が固まっているところからブレッドボードの高さ分のところでカットします。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6709.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6710.jpg)
 
+カット後は下の写真のようになります。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6711.jpg)
+
+２つとも同じようにカットします。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6712.jpg)
 
+### センサーのボディへの貼り付け
+
+それぞれの両面テープを保護する紙を外します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6713.jpg)
+
+そして、写真のようにボディの前面に貼ります。左右はどちらでもかまいません。ただし、２つのセンサーの位置が近すぎると正しく動作しません。下の３枚の写真をよく見て貼り付けてください。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6714.jpg)
 
@@ -549,7 +561,19 @@ USBケーブルをはさむためのケーブルフックを両面テープで�
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6717.jpg)
 
+### センサーの配線
+
+それでは、左右のセンサーに２組の黒・赤・青のジャンパーコードを配線します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6718.jpg)
+
+下の２枚の写真のように、大きな抵抗から出ている一番長いものに赤、小さな抵抗が付いているものに青、金属だけのものに黒のジャンパーコードを配線します。青と黒を間違えやすいので注意してください。
+
+![](/files/blog/smalrubot_v3_assemly_car/IMG_6717_2.jpg)
+
+![](/files/blog/smalrubot_v3_assemly_car/IMG_6719_2.jpg)
+
+黒のジャンパコードの一方をブレッドーボードの「ー」（写真の赤い丸の部分）に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6719.jpg)
 
@@ -557,73 +581,123 @@ USBケーブルをはさむためのケーブルフックを両面テープで�
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6721.jpg)
 
+そして、写真のようにそのジャンパコードを他のものの間を通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6722.jpg)
+
+前にもってきて...
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6723.jpg)
 
-![](/files/blog/smalrubot_v3_assemly_car/IMG_6724.jpg)
+写真のようにセンサーの金属だけのものに挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6725.jpg)
 
+上から見ると写真のように他のジャンパコードの間を通ってセンサーとに挿しているのがよく分かりますね。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6726.jpg)
+
+次に写真のように赤のジャンパコードをブレッドボードの「＋」に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6727.jpg)
 
+これも先ほどのように他のジャンパコードの間を通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6728.jpg)
+
+前の方に持ってきて、センサーの大きい抵抗の先に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6729.jpg)
 
+下の写真は横から見たものです。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6730.jpg)
+
+次に写真の赤い丸の部分のように、青のジャンパコードの一方をブレッドボードの「gの18」に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6731.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6732.jpg)
 
+これも他のジャンパコードの間に通していきます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6733.jpg)
 
+写真のように先ほどの黒と赤のジャンパコードと同じところに反対側から通します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6734.jpg)
+
+そして、くるっと回して同じところにもう一度通します。他のジャンパコードを縛るようなイメージです。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6735.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6736.jpg)
 
+そうしたら、前に持ってきてセンサーの小さい抵抗の先に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6737.jpg)
 
-![](/files/blog/smalrubot_v3_assemly_car/IMG_6738.jpg)
+上から見ると写真のような感じです。これで写真の右側のセンサーの配線ができました。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6739.jpg)
 
+次はもう一つのセンサーの配線です。
+
+黒のジャンパコードの一方をブレッドボードの「ー」に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6740.jpg)
 
+先ほどと同じように他のジャンパコードの間を通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6742.jpg)
+
+センサーの金属だけのところに挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6743.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6744.jpg)
 
+次に赤のジャンパコードの一方をブレッドボードの「＋」に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6745.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6746.jpg)
 
+また、先ほどと同じように他のジャンパコードの間を通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6747.jpg)
+
+前の方に持ってきて、センサーの大きい抵抗の先に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6748.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6749.jpg)
 
+次に写真の赤い丸の部分のように、青のジャンパコードの一方をブレッドボードの「gの17」に挿します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6750.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6751.jpg)
 
+またまた、先ほどと同じように他のジャンパコードの間を通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6752.jpg)
+
+くるっと回して...
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6753.jpg)
 
+前の方に通して...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6754.jpg)
+
+センサーの小さい抵抗の先に挿します。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6755.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6756.jpg)
+
+これでセンサーの配線が終わりました。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6757.jpg)
 
@@ -633,7 +707,15 @@ USBケーブルをはさむためのケーブルフックを両面テープで�
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6760.jpg)
 
+### センサーの動作確認
+
+それではセンサーの動作を確認してみましょう。
+
+コンピュータとUSBケーブルを接続してから、スモウルビーを操作して下のプログラムを作って実行します。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6760__pg.jpg)
+
+すると、下の動画のように、センサーの下に黒の線があるとセンサーの値が変わるはずです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pCnIvObY6lM?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -643,21 +725,33 @@ USBケーブルをはさむためのケーブルフックを両面テープで�
 
 最後は収納です。スモウルボットを持ち歩くときに、残った部材とケースの側面などにあたって壊れることを防ぐためにも、きちんと収納しておくことは大切なことです。
 
+まずはスモウルボットの余った材料を袋に袋に入れます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6769.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6770.jpg)
 
+それをケースの一番下に入れます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6771.jpg)
+
+次に、写真のように梱包用の紙をケースに入れ、四隅を合わせます。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6763.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6772.jpg)
 
+伸ばしたUSBケーブルを短くして...
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6765.jpg)
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6766.jpg)
 
+スモウルボットをケースに入れます。
+
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6773.jpg)
+
+そして、フタを閉じます。
 
 ![](/files/blog/smalrubot_v3_assemly_car/IMG_6774.jpg)
 
