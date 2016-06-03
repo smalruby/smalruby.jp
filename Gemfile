@@ -4,13 +4,13 @@ source 'http://rubygems.org'
 
 gem "tzinfo-data"
 
-gem "middleman", "~>3.2.2"
+gem "middleman", "~>3.4.0"
 
 gem "builder"
 
 gem "nokogiri"
 
-gem "middleman-blog", "~> 3.5.3"
+gem "middleman-blog"
 
 # Live-reloading plugin
 # gem "middleman-livereload", "~> 3.1.0"
