@@ -20,8 +20,8 @@ env:
 
 after_success:
   - git clone --quiet https://github.com/smalruby/smalruby.github.com.git
-  - mv smalruby.github.com.git/.git build/
-  - rm -rf smalruby.github.com.git
+  - mv smalruby.github.com/.git build/
+  - rm -rf smalruby.github.com
   - cd build
   - git add -A
   - git commit -m 'Updated.'
