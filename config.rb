@@ -78,16 +78,16 @@ end
 helpers do
   def page_title
     if current_article
-      return "#{current_article.title} | Rubyプログラミング少年団"
+      return "#{current_article.title} | NPO法人Rubyプログラミング少年団"
     end
     if current_page.data.title
-      return "#{current_page.data.title} | Rubyプログラミング少年団"
+      return "#{current_page.data.title} | NPO法人Rubyプログラミング少年団"
     end
-    "Rubyプログラミング少年団"
+    "NPO法人Rubyプログラミング少年団"
   end
 
   def page_description
-    current_page.data.description || "Rubyプログラミング少年団の公式Webサイトです。"
+    current_page.data.description || "NPO法人Rubyプログラミング少年団の公式Webサイトです。"
   end
 
   def ruby(string, furigana)

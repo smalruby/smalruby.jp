@@ -7,7 +7,7 @@
   <meta property="og:image" content="<%= current_article.try(:data).try(:og_image) ||'http://smalruby.jp/images/logo.png' %>" />
   <meta property="og:title" content="<%= page_title %>" />
   <meta property="og:url" content="<%= current_article.try(:url) || '/blog/' %>" />
-  <meta property="og:site_name" content="Rubyプログラミング少年団" />
+  <meta property="og:site_name" content="NPO法人Rubyプログラミング少年団" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="<%= current_article ? strip_tags(current_article.summary(250)) : page_description %>" />
   <meta content='ja_jp' property='og:locale'>
