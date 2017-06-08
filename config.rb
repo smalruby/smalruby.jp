@@ -95,13 +95,6 @@ helpers do
   end
 
   alias :r :ruby
-
-  def num_trialers
-    156 + # - 2015/03
-      8 + # 2015/04
-      8 + # 2015/05
-      0
-  end
 end
 
 set :css_dir, 'css'
