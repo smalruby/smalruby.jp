@@ -16,7 +16,6 @@ env:
     - GIT_COMMITTER_EMAIL=kouji.takao@gmail.com
     - GIT_AUTHOR_NAME="Kouji Takao"
     - GIT_AUTHOR_EMAIL=kouji.takao@gmail.com
-    - secure: "jCQvN2qMaOJIQqtfQQH/7Pi9X+66VZdzz4kd9fHrz8F1A8uApqtuxPG2kCQ4lpmYjFHaWM/8NtyZ3Vq3lS7U2pneMnkE0hXRRB0iRXfJxF+Cju2jhCwmEXteSKfVFB5q/fzbHjaxRVxdCqa7lTfh1ByJ/8G72VSzKNEnOjYsYQE="
 
 after_success:
   - git clone --quiet https://github.com/smalruby/smalruby.github.com.git
